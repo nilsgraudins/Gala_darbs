@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My first homepage</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand"><img src="Images/logo2.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsible">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse" id="collapsible">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page1.html">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page3.html">Chat</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page4.html">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="page5.html">About us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <hr>
+    <!-- Carousel -->
+    <div id="show" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#show" data-slide-to="0" class="active"></li>
+            <li data-target="#show" data-slide-to="1"></li>
+            <li data-target="#show" data-slide-to="2"></li>
+            <li data-target="#show" data-slide-to="3"></li>
+            <li data-target="#show" data-slide-to="4"></li>
+        </ol>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/hostel.jpg" alt="Hostel">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/oldcity2.jpg" alt="Old city">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/moon.jpg" alt="Moon">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/flowers2.jpg" alt="Flowers">
+            </div>
+            <div class="carousel-item">
+                <img src="Images/tram2.jpg" alt="Desert">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#show" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#show" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <div class="container">
+    <!-- Articles -->
+    <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img" src="Images/cat1.jpg" alt="Cat">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-block">
+                                <a href="page2.html" class="card-link">Article 1</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit culpa nemo non, hic
+                                    deleniti beatae repudiandae sed earum eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img" src="Images/cat3.jpg" alt="Cat">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-block">
+                                <a href="page2.html" class="card-link">Article 2</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit culpa nemo non, hic
+                                    deleniti beatae repudiandae sed earum eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="card bg-light">
+                    <div class="row">
+                        <div class="col-4">
+                            <img class="card-img" src="Images/cat4.jpg" alt="Cat">
+                        </div>
+                        <div class="col-8">
+                            <div class="card-block">
+                                <a href="page2.html" class="card-link">Article 3</a>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, sit culpa nemo non, hic
+                                    deleniti beatae repudiandae sed earum eius.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy Author: Nils Graudins "Riga Coding School" 2019</p>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
